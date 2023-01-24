@@ -78,7 +78,8 @@ export default function Navbar() {
         PaperProps={{
           elevation: 0,
           sx: {
-            borderRadius: '0.5rem',
+            minWidth: '240px',
+            borderRadius: '0.7rem',
             overflow: 'visible',
             filter: 'drop-shadow(0px 2px 8px rgba(0,0,0,0.1))',
             mt: 1.5,
@@ -103,6 +104,10 @@ export default function Navbar() {
               transform: 'translateY(-50%) rotate(45deg)',
               zIndex: 0,
             },
+
+            '& .MuiMenuItem-root': {
+              py: 1.25,
+            },
           },
         }}
         transformOrigin={{ horizontal: 'right', vertical: 'top' }}
@@ -113,6 +118,7 @@ export default function Navbar() {
         <Divider />
         <MenuItem>Become Landlord</MenuItem>
         <MenuItem>Help Center</MenuItem>
+        {/* 
         <Divider />
         <MenuItem>
           <ListItemIcon>
@@ -120,7 +126,6 @@ export default function Navbar() {
           </ListItemIcon>
           Add another account
         </MenuItem>
-        {/* 
         <MenuItem>
           <ListItemIcon>
             <Settings fontSize='small' />
