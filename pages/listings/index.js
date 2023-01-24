@@ -1,20 +1,45 @@
 import React from 'react';
 import { Meta } from '../../components';
 import ListingsLayout from '../../layouts/ListingsLayout';
-import { Typography } from '@mui/material';
+import { Box, Typography } from '@mui/material';
 
 const ExploreListing = () => {
   return (
     <>
       <Meta title='Vacant Homes - Student Accomodation' />
       <ListingsLayout>
-        <Typography variant='h5' mb={2}>
-          StuHosts
-        </Typography>
-        <Typography>
-          Best choice for student accomodation. Vacant houses from trusted
-          landlords. You want it! We`ve got it.
-        </Typography>
+        <Box py={8}>
+          <Typography variant='h5' mb={2}>
+            StuHosts
+          </Typography>
+          <Typography variant='h4' mb={2}>
+            StuHosts
+          </Typography>
+          <Typography variant='h3' mb={2}>
+            StuHosts
+          </Typography>
+          <Typography variant='h2' mb={2}>
+            StuHosts
+          </Typography>
+          <Typography variant='h1' mb={2}>
+            StuHosts
+          </Typography>
+          <Typography variant='h5' mb={2}>
+            StuHosts
+          </Typography>
+          <Typography variant='h4' mb={2}>
+            StuHosts
+          </Typography>
+          <Typography variant='h3' mb={2}>
+            StuHosts
+          </Typography>
+          <Typography variant='h2' mb={2}>
+            StuHosts
+          </Typography>
+          <Typography variant='h1' mb={2}>
+            StuHosts
+          </Typography>
+        </Box>
       </ListingsLayout>
     </>
   );

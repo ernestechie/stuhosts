@@ -15,6 +15,7 @@ export default function MobileNavigation() {
         bottom: 0,
         left: 0,
         display: { xs: 'block', sm: 'block', md: 'none' },
+        background: '#fff',
       }}
     >
       <BottomNavigation
