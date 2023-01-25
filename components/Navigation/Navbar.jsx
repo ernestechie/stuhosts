@@ -30,6 +30,7 @@ export default function Navbar() {
     <Box>
       <Box
         sx={{
+          zIndex: 20,
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'space-between',
@@ -48,25 +49,30 @@ export default function Navbar() {
           },
         }}
       >
-        <Typography>LOGO</Typography> {/* STUHOSTS LOGO */}
+        <Typography sx={{ display: { xs: 'none', sm: 'block' } }}>
+          LOGO
+        </Typography>{' '}
+        {/* STUHOSTS LOGO */}
         <Typography>SEARCH BAR</Typography> {/* SEARCH BAR */}
         <IconButton
           onClick={handleClick}
           size='small'
           sx={{
-            p: 1,
+            p: { xs: 0.5, sm: 1 },
             ml: 2,
             display: 'flex',
             gap: 1,
-            border: '1px solid #ccc',
+            border: '1px solid var(--light)',
             borderRadius: 32,
           }}
           aria-controls={open ? 'account-menu' : undefined}
           aria-haspopup='true'
           aria-expanded={open ? 'true' : undefined}
         >
-          <MenuRoundedIcon sx={{ width: 24, height: 24 }} />
-          <Avatar sx={{ width: 32, height: 32 }} />
+          <MenuRoundedIcon
+            sx={{ width: 24, height: 24, display: { xs: 'none', sm: 'block' } }}
+          />
+          <Avatar sx={{ width: 32, height: 32, background: 'var(--gray)' }} />
         </IconButton>
       </Box>
       <Menu
@@ -104,7 +110,6 @@ export default function Navbar() {
               transform: 'translateY(-50%) rotate(45deg)',
               zIndex: 0,
             },
-
             '& .MuiMenuItem-root': {
               py: 1.25,
             },
@@ -113,7 +118,7 @@ export default function Navbar() {
         transformOrigin={{ horizontal: 'right', vertical: 'top' }}
         anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }}
       >
-        <MenuItem>Register</MenuItem>
+        <MenuItem>Get Started</MenuItem>
         <MenuItem>Sign in</MenuItem>
         <Divider />
         <MenuItem>Become Landlord</MenuItem>
