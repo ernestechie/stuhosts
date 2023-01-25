@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap');
 
+:root {
+  --accent: #fe8235;
+  --primary: #5224b5;
+  --darker: #060606;
+  --dark: #1b1b1b;
+  --gray: #ccc;
+  --light: #eee;
+}
+
 html,
 body {
   padding: 0;
@@ -21,4 +30,8 @@ a {
 }
 
 @media (prefers-color-scheme: dark) {
+}
+
+.MuiDivider-root {
+  border-color: var(--light);
 }

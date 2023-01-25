@@ -1,105 +1,204 @@
-{
-  "_id": "10006546",
-  "listing_url": "https://www.stuhosts.com/listings/10006546",
-  "name": "Ribeira Charming Duplex",
-  "summary": "Fantastic duplex apartment with three bedrooms, located in the historic area of Porto, Ribeira (Cube)...",
-  "property_type": "House",
-  "room_type": "Entire home/apt",
-  "minimum_stay": "1",
-  "maximum_stay": "10",
-  "first_review": {
-    "$date": {
-      "$numberLong": "1451797200000"
-    }
-  },
-  "last_review": {
-    "$date": "1547960400000"
-  },
-  "accommodates": "8",
-  "bedrooms": "2",
-  "bathrooms": "1",
-  "number_of_reviews": "51",
-  "price": "80",
-  "images": {
-    "thumbnail_url": "",
-    "medium_url": "",
-    "picture_url": "https://a0.com/im/pictures/e83e702f-ef49-40fb-8fa0-6512d7e26e9b.jpg?aki_policy=large",
-    "xl_picture_url": ""
-  },
-  "landlord": {
-    "landlord_id": "51399391",
-    "landlord_url": "https://www.stuhosts.com/users/show/51399391",
-    "landlord_name": "Ana&Gonçalo",
-    "landlord_location": "Porto, Porto District, Portugal",
-    "landlord_about": "Gostamos de passear, de viajar, de conhecer pessoas e locais novos, gostamos de desporto e animais! Vivemos na cidade mais linda do mundo!!!",
-    "landlord_response_time": "within an hour",
-    "landlord_thumbnail_url": "https://a0.com/im/pictures/fab79f25-2e10-4f0f-9711-663cb69dc7d8.jpg?aki_policy=profile_small",
-    "landlord_picture_url": "https://a0.com/im/pictures/fab79f25-2e10-4f0f-9711-663cb69dc7d8.jpg?aki_policy=profile_x_medium",
-    "landlord_neighbourhood": "",
-    "landlord_response_rate": "10",
-    "landlord_is_superlandlord": false,
-    "landlord_has_profile_pic": true,
-    "landlord_identity_verified": true,
-    "landlord_listings_count": {
-      "$numberInt": "3"
+[
+  {
+    "_id": "10az0we06ds5dv46",
+    "listing_url": "https://www.stuhosts.com/listings/10az0we06ds5dv46",
+    "name": "Lake Toru Lodges",
+    "summary": "Fantastic apartment with two bedrooms, located in the historic area Torugbene, great view of the whole town.",
+    "property_type": "House",
+    "room_type": "Entire home/apt",
+    "minimum_stay": "1",
+    "maximum_stay": "6",
+    "first_review": {
+      "date": 1451797200000
     },
-    "landlord_total_listings_count": "2",
-    "landlord_verifications": [
-      "email",
-      "phone",
-      "proof_of_ownership",
-      "government_id"
+    "last_review": {
+      "date": 1547960400000
+    },
+    "accommodates": "4",
+    "bedrooms": "2",
+    "bathrooms": "2",
+    "number_of_reviews": "15",
+    "price": "450000",
+    "images": {
+      "thumbnail_url": "",
+      "medium_url": "",
+      "picture_url": "https://images.unsplash.com/photo-1619810230359-b2c2f61c49cd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=800",
+      "xl_picture_url": ""
+    },
+    "landlord": {
+      "landlord_id": "51399391",
+      "landlord_url": "https://www.stuhosts.com/users/show/51399391",
+      "landlord_name": "Ana&Gonçalo",
+      "landlord_location": "Porto, Porto District, Portugal",
+      "landlord_about": "Gostamos de passear, de viajar, de conhecer pessoas e locais novos, gostamos de desporto e animais! Vivemos na cidade mais linda do mundo!!!",
+      "landlord_response_time": "within an hour",
+      "landlord_thumbnail_url": "https://a0.com/im/pictures/fab79f25-2e10-4f0f-9711-663cb69dc7d8.jpg?aki_policy=profile_small",
+      "landlord_picture_url": "https://a0.com/im/pictures/fab79f25-2e10-4f0f-9711-663cb69dc7d8.jpg?aki_policy=profile_x_medium",
+      "landlord_neighbourhood": "",
+      "landlord_response_rate": "10",
+      "landlord_is_superlandlord": false,
+      "landlord_has_profile_pic": true,
+      "landlord_identity_verified": true,
+      "landlord_listings_count": 3,
+      "landlord_total_listings_count": "2",
+      "landlord_verifications": [
+        "email",
+        "phone",
+        "proof_of_ownership",
+        "government_id"
+      ]
+    },
+    "address": {
+      "street": "Porto, Porto, Nigeria",
+      "suburb": "",
+      "government_area": "Cedofeita, Ildefonso, Sé, Miragaia, Nicolau, Vitória",
+      "market": "Porto",
+      "country": "Portugal",
+      "country_code": "PT",
+      "location": {
+        "type": "Point",
+        "coordinates": {
+          "lat": "-8.61308",
+          "lng": "41.1413"
+        }
+      }
+    },
+    "availability": "available",
+    "review_scores": {
+      "review_scores_accuracy": "9",
+      "review_scores_cleanliness": "9",
+      "review_scores_checkin": "10",
+      "review_scores_communication": "10",
+      "review_scores_location": "10",
+      "review_scores_value": "9",
+      "review_scores_rating": "89"
+    },
+    "reviews": [
+      {
+        "_id": "362865132",
+        "date": "1545886800000",
+        "listing_id": "10006546",
+        "reviewer_id": "208880077",
+        "reviewer_name": "Thomas",
+        "comments": "Very helpful landlords. Cooked traditional..."
+      },
+      {
+        "_id": "364728730",
+        "date": "1546232400000",
+        "listing_id": "10006546",
+        "reviewer_id": "91827533",
+        "reviewer_name": "Mr",
+        "comments": "Goncalo were great on communication..."
+      },
+      {
+        "_id": "403055315",
+        "date": "1546232400000",
+        "listing_id": "10006546",
+        "reviewer_id": "15138940",
+        "reviewer_name": "Milo",
+        "comments": "The house was extremely well located..."
+      }
     ]
   },
-  "address": {
-    "street": "Porto, Porto, Nigeria",
-    "suburb": "",
-    "government_area": "Cedofeita, Ildefonso, Sé, Miragaia, Nicolau, Vitória",
-    "market": "Porto",
-    "country": "Portugal",
-    "country_code": "PT",
-    "location": {
-      "type": "Point",
-      "coordinates": {
-        "lat": "-8.61308",
-        "lng": "41.1413"
+  {
+    "_id": "02je0f9jsjdfunja",
+    "listing_url": "https://www.stuhosts.com/listings/02je0f9jsjdfunja",
+    "name": "Bawlers Ville",
+    "summary": "Bawlers Ville space with 2 bedrooms. 24 hours water supply, 18 hours electricity and close to the main campus.",
+    "property_type": "House",
+    "room_type": "Entire home/apt",
+    "minimum_stay": "1",
+    "maximum_stay": "3",
+    "first_review": {
+      "date": 1111797200000
+    },
+    "last_review": {
+      "date": 1647960400000
+    },
+    "accommodates": "3",
+    "bedrooms": "1",
+    "bathrooms": "1",
+    "number_of_reviews": "25",
+    "price": "450000",
+    "images": {
+      "thumbnail_url": "",
+      "medium_url": "",
+      "picture_url": "https://images.unsplash.com/photo-1623625434462-e5e42318ae49?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80",
+      "xl_picture_url": ""
+    },
+    "landlord": {
+      "landlord_id": "51399391",
+      "landlord_url": "https://www.stuhosts.com/users/show/51399391",
+      "landlord_name": "Ana&Gonçalo",
+      "landlord_location": "Porto, Porto District, Portugal",
+      "landlord_about": "Gostamos de passear, de viajar, de conhecer pessoas e locais novos, gostamos de desporto e animais! Vivemos na cidade mais linda do mundo!!!",
+      "landlord_response_time": "within an hour",
+      "landlord_thumbnail_url": "https://a0.com/im/pictures/fab79f25-2e10-4f0f-9711-663cb69dc7d8.jpg?aki_policy=profile_small",
+      "landlord_picture_url": "https://a0.com/im/pictures/fab79f25-2e10-4f0f-9711-663cb69dc7d8.jpg?aki_policy=profile_x_medium",
+      "landlord_neighbourhood": "",
+      "landlord_response_rate": "10",
+      "landlord_is_superlandlord": false,
+      "landlord_has_profile_pic": true,
+      "landlord_identity_verified": true,
+      "landlord_listings_count": 3,
+      "landlord_total_listings_count": "2",
+      "landlord_verifications": [
+        "email",
+        "phone",
+        "proof_of_ownership",
+        "government_id"
+      ]
+    },
+    "address": {
+      "street": "Porto, Porto, Nigeria",
+      "suburb": "",
+      "government_area": "Cedofeita, Ildefonso, Sé, Miragaia, Nicolau, Vitória",
+      "market": "Porto",
+      "country": "Portugal",
+      "country_code": "PT",
+      "location": {
+        "type": "Point",
+        "coordinates": {
+          "lat": "-8.61308",
+          "lng": "41.1413"
+        }
       }
-    }
-  },
-  "availability": "available",
-  "review_scores": {
-    "review_scores_accuracy": "9",
-    "review_scores_cleanliness": "9",
-    "review_scores_checkin": "10",
-    "review_scores_communication": "10",
-    "review_scores_location": "10",
-    "review_scores_value": "9",
-    "review_scores_rating": "89"
-  },
-  "reviews": [
-    {
-      "_id": "362865132",
-      "date": "1545886800000",
-      "listing_id": "10006546",
-      "reviewer_id": "208880077",
-      "reviewer_name": "Thomas",
-      "comments": "Very helpful landlords. Cooked traditional..."
     },
-    {
-      "_id": "364728730",
-      "date": "1546232400000",
-      "listing_id": "10006546",
-      "reviewer_id": "91827533",
-      "reviewer_name": "Mr",
-      "comments": "Goncalo were great on communication..."
+    "availability": "available",
+    "review_scores": {
+      "review_scores_accuracy": "9",
+      "review_scores_cleanliness": "9",
+      "review_scores_checkin": "10",
+      "review_scores_communication": "10",
+      "review_scores_location": "10",
+      "review_scores_value": "9",
+      "review_scores_rating": "89"
     },
-    {
-      "_id": "403055315",
-      "date": "1546232400000",
-      "listing_id": "10006546",
-      "reviewer_id": "15138940",
-      "reviewer_name": "Milo",
-      "comments": "The house was extremely well located..."
-    }
-  ]
-}
+    "reviews": [
+      {
+        "_id": "362865132",
+        "date": "1545886800000",
+        "listing_id": "10006546",
+        "reviewer_id": "208880077",
+        "reviewer_name": "Thomas",
+        "comments": "Very helpful landlords. Cooked traditional..."
+      },
+      {
+        "_id": "364728730",
+        "date": "1546232400000",
+        "listing_id": "10006546",
+        "reviewer_id": "91827533",
+        "reviewer_name": "Mr",
+        "comments": "Goncalo were great on communication..."
+      },
+      {
+        "_id": "403055315",
+        "date": "1546232400000",
+        "listing_id": "10006546",
+        "reviewer_id": "15138940",
+        "reviewer_name": "Milo",
+        "comments": "The house was extremely well located..."
+      }
+    ]
+  }
+]
