@@ -9,7 +9,7 @@ const ExploreListing = () => {
       <Meta title='Vacant Homes - Student Accomodation' />
       <ListingsLayout>
         <Box py={8}>
-          <Typography variant='h5' mb={4} sx={{ fontWeight: 500 }}>
+          <Typography variant='h5' mb={4} sx={{ fontWeight: 600 }}>
             Explore
           </Typography>
           <Listings />
