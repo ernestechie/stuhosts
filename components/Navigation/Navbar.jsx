@@ -58,7 +58,8 @@ export default function Navbar() {
           onClick={handleClick}
           size='small'
           sx={{
-            p: { xs: 0.5, sm: 1 },
+            // p: { xs: 0.5, sm: 1 },
+            p: 1,
             ml: 2,
             display: 'flex',
             gap: 1,
@@ -70,7 +71,11 @@ export default function Navbar() {
           aria-expanded={open ? 'true' : undefined}
         >
           <MenuRoundedIcon
-            sx={{ width: 24, height: 24, display: { xs: 'none', sm: 'block' } }}
+            sx={{
+              width: 24,
+              height: 24,
+              // display: { xs: 'none', sm: 'block' }
+            }}
           />
           <Avatar sx={{ width: 32, height: 32, background: 'var(--gray)' }} />
         </IconButton>
@@ -118,12 +123,14 @@ export default function Navbar() {
         transformOrigin={{ horizontal: 'right', vertical: 'top' }}
         anchorOrigin={{ horizontal: 'right', vertical: 'bottom' }}
       >
-        <MenuItem>Get Started</MenuItem>
-        <MenuItem>Sign in</MenuItem>
+        <MenuItem>Inbox</MenuItem>
         <Divider />
         <MenuItem>Become Landlord</MenuItem>
         <MenuItem>Help Center</MenuItem>
+        <Divider />
         {/* 
+        <MenuItem>Get Started</MenuItem>
+        <MenuItem>Sign in</MenuItem>
         <Divider />
         <MenuItem>
           <ListItemIcon>
@@ -136,13 +143,13 @@ export default function Navbar() {
             <Settings fontSize='small' />
           </ListItemIcon>
           Settings
-        </MenuItem>
-        <MenuItem>
+        </MenuItem> */}
+        <MenuItem sx={{ color: 'red' }}>
           <ListItemIcon>
-            <Logout fontSize='small' />
+            <Logout fontSize='small' sx={{ color: 'red' }} />
           </ListItemIcon>
           Logout
-        </MenuItem> */}
+        </MenuItem>
       </Menu>
     </Box>
   );
