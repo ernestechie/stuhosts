@@ -28,6 +28,10 @@ const Listings = () => {
             image={listing.images.picture_url}
             location={listing.address.government_area}
             price={listing.price}
+            bedrooms={listing.bedrooms}
+            bathrooms={listing.bathrooms}
+            capacity={listing.maximum_stay}
+            furnished={listing.furnished}
           />
         </Grid>
       ))}
